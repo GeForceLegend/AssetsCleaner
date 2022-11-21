@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AssetCleaner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AssetCleaner_jar</output-path>
+    <root id="archive" name="AssetCleaner.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="AssetCleaner" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10/gson-2.10.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
