@@ -85,7 +85,7 @@ public class Main {
             for (File object : objectsSubPath.listFiles()) {
                 if (!assets.contains(object.getName())) {
                     object.delete();
-                    System.out.println("Deleted file assets/objects/" + object.getParent() + "/" + object.getName());
+                    System.out.println("Deleted file assets/objects/" + new File(object.getParent()).getName() + "/" + object.getName());
                 }
             }
         }
